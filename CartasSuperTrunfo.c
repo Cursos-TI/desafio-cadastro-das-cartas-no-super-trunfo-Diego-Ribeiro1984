@@ -31,11 +31,11 @@ int main() {
     printf ("Digite o nome da cidade: \n");
     scanf ("%s", &nome);
     printf ("Digite o número de habitantes: \n");
-    scanf ("%f", &populacao);
+    scanf ("%d", &populacao);
     printf ("Digite a Área (KM²): \n");
-    scanf ("%f", &area);
+    scanf ("%.2f", &area);
     printf ("Digite o PIB (produto interno bruto) da cidade: \n");
-    scanf ("%f", &PIB);
+    scanf ("%.2f", &PIB);
     printf ("Insira a quatidade de pontos turísticos: \n");
     scanf ("%d", &pontos_turisticos);
 
@@ -46,8 +46,8 @@ int main() {
     printf ("Código: %s\n", codigo);
     printf ("Nome da Cidade: %s\n", nome);
     printf ("Número de Habitantes: %d\n", populacao);
-    printf ("Área da Cidade (Km²): %f\n", area);
-    printf ("PIB da cidade: %f\n", PIB);
+    printf ("Área da Cidade (Km²): %.2f\n", area);
+    printf ("PIB da cidade: %.2f\n", PIB);
     printf ("Número de pontos turísticos: %d\n", pontos_turisticos);
 
 
@@ -55,6 +55,7 @@ int main() {
 
     printf ("\nCadastro da Carta 2\n");
     printf ("Digite o estado: \n");
+    scanf ("%s", &estado);
     printf ("Insira o código da carta. Ex: A01.\n");
     scanf ("%s", &codigo);
     printf ("Digite o nome da cidade: \n");
@@ -62,9 +63,9 @@ int main() {
     printf ("Digite o número de habitantes: \n");
     scanf ("%d", &populacao);
     printf ("Digite a Área (KM²): \n");
-    scanf ("%f", &area);
+    scanf ("%.2f", &area);
     printf ("Digite o PIB (produto interno bruto) da cidade: \n");
-    scanf ("%f", &PIB);
+    scanf ("%.2f", &PIB);
     printf ("Insira a quatidade de pontos turísticos: \n");
     scanf ("%d", &pontos_turisticos);
 
@@ -75,8 +76,8 @@ int main() {
     printf ("Código: %s\n", codigo);
     printf ("Nome da Cidade: %s\n", nome);
     printf ("Número de Habitantes: %d\n", populacao);
-    printf ("Área da Cidade (Km²): %f\n", area);
-    printf ("PIB da cidade: %f\n", PIB);
+    printf ("Área da Cidade (Km²): %.2f\n", area);
+    printf ("PIB da cidade: %.2f\n", PIB);
     printf ("Número de pontos turísticos: %d\n", pontos_turisticos);
 
 
