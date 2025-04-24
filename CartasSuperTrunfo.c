@@ -37,7 +37,7 @@ int main() {
     scanf("%d", &pontos_turisticos1);
 
     // Exibição da primeira carta
-    printf("\n📄 Dados da Carta 1:\n");
+    printf("\n Dados da Carta 1:\n");
     printf("Estado: %s\n", estado1);
     printf("Código: %s\n", codigo1);
     printf("Cidade: %s\n", nome1);
@@ -64,7 +64,7 @@ int main() {
     scanf("%d", &pontos_turisticos2);
 
     // Exibição da segunda carta
-    printf("\n📄 Dados da Carta 2:\n");
+    printf("\n Dados da Carta 2:\n");
     printf("Estado: %s\n", estado2);
     printf("Código: %s\n", codigo2);
     printf("Cidade: %s\n", nome2);
