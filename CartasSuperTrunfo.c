@@ -96,7 +96,7 @@ int main() {
 
     // Resultado das Comprações das Cartas ( 1 = Carta 1 Vence, 0 = Carta 2 Vence)
 
-    printf("Resultados das Comparações:\n");
+    printf("\n Resultados das Comparações:\n");
     printf("População: %d\n", populacao1 > populacao2);
     printf("Área: %d\n", area1 > area2);
     printf("PIB: %d\n", PIB1 > PIB2);
@@ -104,6 +104,20 @@ int main() {
     printf("Densidade Populacional (menor vence): %d\n", dens_populacional1 < dens_populacional2);
     printf("PIB per Capita: %d\n", pib_percapita1 > pib_percapita2);
     printf("Super Poder: %d\n", super_poder1 > super_poder2);
+
+    // Inserção das comparações entre as cartas cadastradas, utilizando as estruturas de decisão if e else.
+
+    printf ("\n Comparação de cartas (Atributo: População): \n");
+    printf ("Carta 1 - %s, (%s): %d\n", estado1, nome1, populacao1);
+    printf ("Carta 2 - %s, (%s): %d\n", estado2, nome2, populacao2);
+    if ( populacao1 > populacao2){
+        printf ("Resultado: Carta 1 (%s) venceu!\n", nome1);
+    }else {
+        printf ("Resultado: Carta 2 (%s) venceu!\n", nome2);
+    }
+
+
+    
 
     return 0;
 }
